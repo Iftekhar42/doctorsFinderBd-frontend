@@ -1,0 +1,53 @@
+.details_wrapper {
+  min-height: 80vh;
+  padding: 5vh 0;
+}
+.bookBtn {
+  background-color: var(--primaryColor);
+  border: 2px solid var(--primaryColor);
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  padding: 6px;
+  transition: all 0.3s ease-in;
+  width: 100%;
+  margin-left: 20px;
+}
+.bookBtn:hover {
+  background-color: #ffff;
+  border: 2px solid #0e8a8a;
+  color: var(--primaryColor);
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  padding: 6px;
+}
+.profileNavlink {
+  text-decoration: none;
+  width: 45%;
+}
+.inputLabel {
+  padding: 5px 0px;
+  font-family: "Poppins";
+  font-size: 20px;
+  color: rgba(43, 43, 43, 0.87);
+  font-weight: bold;
+}
+.singleSkill {
+  color: #fff;
+  background-color: var(--primaryColor);
+  margin: 5px 5px;
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+.sliderContainer {
+  width: 99% !important;
+}
+.testimonialCard{
+    box-shadow: 1px 1px 25px rgba(219, 219, 219, 0.562) !important;
+    width: 95% !important;
+}

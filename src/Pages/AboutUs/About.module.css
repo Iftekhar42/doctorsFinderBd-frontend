@@ -1,0 +1,14 @@
+.about_us_header{
+    background-color: rgb(20, 94, 87);
+    background-image: url("https://i.ibb.co/Qk0KZnT/aboutUs.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25vh;
+}
+.about_us_header h1{
+    padding-top: 10vh;
+}
+.img_container{
+    background-color: var(--secondaryColor);
+}

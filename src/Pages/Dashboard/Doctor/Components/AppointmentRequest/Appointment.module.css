@@ -1,0 +1,38 @@
+.appointment_wrapper {
+}
+.appointmentCard_container {
+  background-color: #5496d321;
+}
+.appointmentCard_container {
+  /* background-color: #c7f7f588; */
+}
+.timeBadge {
+  padding: 5px 10px !important;
+  color: white;
+  font-weight: bold;
+  background-color: var(--primaryColor) !important;
+}
+.inputField1 {
+  color: white ;
+  background-color: var(--primaryColor);
+  transition: all 0.1s ease;
+  padding: 10px;
+  margin: 5px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid var(--primaryColor);
+}
+.inputField1:focus-visible {
+  outline: 1px solid var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+.submitBtn {
+  padding: 8px 30px;
+  background-color: var(--secondaryColor);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 10px;
+}

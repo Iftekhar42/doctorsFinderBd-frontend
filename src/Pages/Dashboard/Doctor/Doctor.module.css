@@ -1,0 +1,27 @@
+.sideBarbtn {
+  background-color: var(--secondaryColor);
+}
+.menuItem{
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid #ffffff7c;
+}
+
+.menuItem a:hover{
+    background-color: var(--secondaryColor) !important;
+}
+.sideBarContainer{
+    min-height: 80vh;
+    
+    background-color: var(--primaryColor);
+    /* border-bottom: 1px solid #ffffff7c; */
+}
+.activeLink {
+background-color: var(--secondaryColor) !important;
+font-weight: bold;
+color: white;
+}
+.activeLink a:hover {
+background-color: var(--secondaryColor) !important;
+font-weight: bold;
+}

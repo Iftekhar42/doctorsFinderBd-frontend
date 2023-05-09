@@ -1,0 +1,94 @@
+.allDoctorPage_wrapper {
+  min-height: 80vh;
+}
+.bookBtn {
+  background-color: var(--primaryColor);
+  border: 2px solid var(--primaryColor);
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  padding: 6px;
+  transition: all 0.3s ease-in;
+  width: 100%;
+  margin-left: 20px;
+}
+.bookBtn:hover {
+  background-color: #ffff;
+  border: 2px solid #0e8a8a;
+  color: var(--primaryColor);
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  padding: 6px;
+}
+.profileBtn {
+  background-color: #ffff;
+  border: 2px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  padding: 6px;
+  transition: all 0.3s ease-in;
+  width: 100%;
+}
+.profileBtn:hover {
+  background-color: var(--secondaryColor);
+  border: 2px solid var(--secondaryColor);
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  padding: 6px;
+}
+
+.profileNavlink {
+  text-decoration: none;
+  width: 45%;
+}
+
+.dropBtn {
+  background-color: var(--primaryColor);
+  border: 2px var(--secondaryColor);
+  font-size: 15px;
+  font-weight: 500;
+}
+.dropBtn:hover {
+  background-color: var(--secondaryColor);
+  border: 2px var(--secondaryColor);
+  font-size: 15px;
+  font-weight: 500;
+}
+.dropBtn:active {
+  background-color: var(--secondaryColor) !important;
+  border: 2px var(--secondaryColor) !important;
+  outline: #0e8a8a;
+  font-size: 15px;
+  font-weight: 500;
+}
+.dropBtn:focus-visible {
+  background-color: var(--secondaryColor) !important;
+  border: 2px var(--secondaryColor) !important;
+  outline: #0e8a8a;
+  font-size: 15px;
+  font-weight: 500;
+}
+.dropDownMenu {
+  max-height: 250px;
+  overflow-y: scroll;
+  background-color: #0e8a8aa2;
+  color: #fff !important;
+}
+
+.dropItem {
+  color: #fff;
+  font-weight: 500;
+}
+.dropItem:hover {
+  background-color: var(--secondaryColor);
+}

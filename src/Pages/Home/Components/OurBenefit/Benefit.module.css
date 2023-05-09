@@ -1,0 +1,43 @@
+.benefitH4{
+    color: var(--primaryColor);
+    font-family:sans-serif;
+}
+.benefitH4:before {
+  content: "\2714";
+  background-color: #ff9600;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+.benefitLeft {
+  padding-top: 10vh;
+  padding-left: 5vw;
+  padding-right: 100px;
+}
+.speak_content {
+  color: white;
+  background-color: var(--secondaryColor);
+  padding: 0 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.benefitLeft p{
+    font-size: 16px;
+    /* font-family: ; */
+}
+.contactBtn {
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 15px;
+  color: var(--secondaryColor);
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+.contactBtn:hover {
+  background-color: var(--primaryColor);
+  color: #fff;
+}

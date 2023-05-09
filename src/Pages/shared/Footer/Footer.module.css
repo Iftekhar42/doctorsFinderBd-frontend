@@ -1,0 +1,43 @@
+.footerContainer {
+  background-color: var(--primaryColor);
+  padding: 5vh 0;
+}
+.socialIcon {
+  color: white;
+  background-color: var(--secondaryColor);
+  padding: 10px 20px;
+  margin: 4px;
+  transition: all 0.3s ease-in;
+}
+.socialIcon:hover {
+  color: var(--primaryColor);
+  background-color: #ffff;
+  cursor: pointer;
+}
+.emailField {
+  width: 30vw;
+  height: 50px;
+  font-family: "Roboto";
+  font-size: 20px;
+  border: 0;
+  color: #333;
+}
+.emailField:focus-visible {
+  border: 0px white !important;
+  outline: 0;
+}
+.submitBTN {
+  background-color: var(--secondaryColor);
+  height: 50px;
+  font-family: "Poppins";
+  font-size: 18px;
+  border: 0;
+  padding-left:25px ;
+  padding-right:25px ;
+  color: white;
+  transition: all 0.3s ease;
+  /* font-weight: bold; */
+}
+.submitBTN:hover {
+  cursor: pointer;
+}

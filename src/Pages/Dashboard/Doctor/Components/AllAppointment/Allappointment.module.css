@@ -1,0 +1,9 @@
+.timeBadge {
+  padding: 5px 10px !important;
+  color: white;
+  font-weight: bold;
+  background-color: var(--primaryColor) !important;
+}
+.appointmentCard_container {
+  background-color: #8ff0ec;
+}

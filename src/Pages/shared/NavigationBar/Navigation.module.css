@@ -1,0 +1,13 @@
+.navigation_top_bar {
+  padding: 5px 50px;
+  background-color: var(--primaryColor);
+  color: white;
+}
+.text_hover:hover {
+  text-decoration: underline !important;
+  color: var(--secondaryColor) !important;
+}
+.text_hover {
+  color: rgb(107, 107, 107);
+  font-weight: bold;
+}

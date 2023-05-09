@@ -1,0 +1,4 @@
+.bg_container {
+  background-color: var(--optionalColor);
+  min-height: 60vh;
+}

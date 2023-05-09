@@ -1,0 +1,8 @@
+.cardFooter {
+  background-color: var(--primaryColor);
+  transition: all 0.2s ease-in;
+}
+
+.cardFooter:hover {
+  background-color: var(--secondaryColor);
+}

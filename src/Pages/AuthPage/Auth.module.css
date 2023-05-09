@@ -1,0 +1,53 @@
+.submit_btn {
+  background-color: var(--secondaryColor);
+  transition: all 0.3s ease-in-out;
+}
+.submit_btn:hover {
+  background-color: var(--primaryColor);
+}
+
+.formInputField {
+  outline: 0px;
+  border: 0px;
+  border-bottom: 1px solid #9c9c9c8c;
+  transition: all 0.2s cubic-bezier(0.15, 0.25, 0.28, 1.1);
+}
+
+.formInputField:focus-visible {
+  outline: 0px;
+  border: 0px;
+  border-bottom: 2px solid var(--primaryColor);
+}
+.loginOr {
+  color: #d4d4d4;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+.or {
+  background-color: #fff;
+  display: block;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  text-align: center;
+  top: -3px;
+  width: 42px;
+  text-align: center;
+}
+.orLine {
+  background-color: #e5e5e5;
+  height: 1px;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+}
+
+.roleBgActive {
+  background-color: var(--secondaryColor);
+}
+.roleBg {
+  background-color: rgba(117, 117, 117, 0.438);
+}

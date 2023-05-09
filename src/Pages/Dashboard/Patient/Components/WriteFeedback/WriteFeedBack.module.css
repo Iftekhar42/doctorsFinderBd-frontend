@@ -1,0 +1,67 @@
+.timeBadge {
+  padding: 5px 10px !important;
+  color: white;
+  font-weight: bold;
+  background-color: var(--primaryColor) !important;
+}
+.feedBackBtn {
+  background-color: var(--primaryColor);
+  border: none;
+  padding: 8px 25px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+.feedBackBtn:hover {
+  background-color: var(--secondaryColor);
+  cursor: pointer;
+}
+
+.formLabel {
+  font-family: "Poppins";
+  font-size: 20px;
+  color: rgba(43, 43, 43, 0.87);
+  font-weight: bold;
+}
+.inputField1 {
+  background-color: var(--primaryColor);
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.1s ease;
+  padding: 2px;
+  margin: 5px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid var(--primaryColor);
+}
+.inputField1:focus-visible {
+  outline: 1px solid var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+.textarea {
+  width: 100%;
+  border: 1px solid var(--primaryColor);
+  height: 30vh;
+  border-radius: 8px;
+  padding: 5px;
+  transition: all 0.1s ease;
+  font-size: 18px;
+  font-family: "Poppins";
+  padding: 5px;
+}
+.textarea:focus-visible {
+  outline: 1px solid var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+.submitBtn{
+    padding: 8px 30px;
+    background-color: var(--secondaryColor);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+}

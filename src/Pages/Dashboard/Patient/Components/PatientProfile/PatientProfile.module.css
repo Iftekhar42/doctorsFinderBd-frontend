@@ -1,0 +1,28 @@
+.inputLabel {
+  font-family: "Poppins";
+  font-size: 20px;
+  color: rgba(43, 43, 43, 0.87);
+  font-weight: bold;
+}
+.inputField1 {
+  transition: all 0.1s ease;
+  padding: 2px;
+  margin: 5px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid var(--primaryColor);
+}
+.inputField1:focus-visible {
+  outline: 1px solid var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+.submitBtn {
+  padding: 8px 30px;
+  background-color: var(--secondaryColor);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  margin-top: 10px;
+}
